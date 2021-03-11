@@ -22,3 +22,11 @@ body {
     a {
         text-decoration: none;
     }
+
+/* Header */
+.header {
+    font-size: 1.3em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
