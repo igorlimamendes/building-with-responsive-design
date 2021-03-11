@@ -164,13 +164,45 @@ body {
                     }
 
 @media screen and (max-width: 1200px) {
-
+    .box2__list li:nth-last-child(-n+2) a {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1025px) {
+    .nav__logo {
+        display: inline-block;
+    }
 
+    .header__message--anchor {
+        padding: 0 1.5em 0 9.7em;
+    }
 }
 
 @media screen and (max-width: 780px) {
+    .wrapper__box1,
+    .box2__list {
+        display: none;
+    }
 
+    .wrapper__box2 {
+        justify-content: flex-end;
+    }
+    
+    .box2__items {
+        margin-right: .5em;
+        justify-content: space-between;
+    }
+        .items__search {
+            width: 2.5em;
+        }
+
+        .items__bar {
+            display: inline-block;
+        }
+
+    .header__message--anchor {
+        padding: 1em .5em;
+        text-align: center;
+    }
 }
