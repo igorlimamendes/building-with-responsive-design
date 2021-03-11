@@ -173,10 +173,6 @@ body {
     .nav__logo {
         display: inline-block;
     }
-
-    .header__message--anchor {
-        padding: 0 1.5em 0 9.7em;
-    }
 }
 
 @media screen and (max-width: 780px) {
@@ -200,9 +196,4 @@ body {
         .items__bar {
             display: inline-block;
         }
-
-    .header__message--anchor {
-        padding: 1em .5em;
-        text-align: center;
-    }
 }
