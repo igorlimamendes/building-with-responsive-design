@@ -33,3 +33,9 @@ body {
     header a:focus {
         outline: none;
     }
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        background-color: var(--black);
+    }
