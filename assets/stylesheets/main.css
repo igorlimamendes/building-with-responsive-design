@@ -121,3 +121,44 @@ body {
                 .box1__list2 li {
                     margin-left: .9em;
                 }
+
+            .wrapper__box2 {
+                background-color: var(--white2);
+                height: 3.3em;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 1.5em;
+                font-size: 1.1em;
+            }
+                .box2__list {
+                    list-style: none;
+                    display: inline-flex;
+                }
+                    .box2__list a {
+                        color: var(--gray2);
+                        margin-right: 1.5em;
+                    }
+                        .box2__list a:hover {
+                            color: var(--black);
+                        }
+
+                .box2__items {
+                    width: 6em;
+                    height: 3.3em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+                    .items__search {
+                        width: 4em;
+                        text-align: center;
+                    }
+                        .items__search:hover path {
+                            fill: var(--black);
+                        }
+                    
+                    .items__bar {
+                        padding: .7em;
+                        display: none;
+                    }
