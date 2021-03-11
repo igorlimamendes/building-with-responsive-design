@@ -15,3 +15,10 @@
     --gray2: #aaa;
     --black4: #333;
 }
+
+body {
+    font: 10px Arial, Helvetica, sans-serif;
+}
+    a {
+        text-decoration: none;
+    }
