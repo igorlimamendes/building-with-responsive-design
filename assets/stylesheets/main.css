@@ -162,3 +162,15 @@ body {
                         padding: .7em;
                         display: none;
                     }
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1025px) {
+
+}
+
+@media screen and (max-width: 780px) {
+
+}
