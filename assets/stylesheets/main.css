@@ -223,3 +223,8 @@ body {
     .footer a:focus {
         outline: none;
     }
+    
+    .footer__box1 {
+        background-color: var(--black2);
+        padding: 4em 1em 3.2em;
+    }
