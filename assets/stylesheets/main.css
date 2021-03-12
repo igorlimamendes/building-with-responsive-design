@@ -268,3 +268,17 @@ body {
             .footer__box1__list a:hover {
                 color: var(--white);
             }
+
+    .footer__box2 {
+        background-color: var(--black);
+        font-size: 1.3em;
+        text-align: center;
+        padding: 3.15em 1em;
+    }
+        .footer__box2 svg {
+            display: inline-block;
+            height: .9em;
+            margin-right: 1px;
+            vertical-align: baseline;
+            font-size: .8em;
+        }
