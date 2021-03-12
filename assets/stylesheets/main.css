@@ -48,10 +48,12 @@ body {
         .nav__logo {
             display: none;
             background-color: var(--black);
-            padding: 1em 1.5em;
+            padding: 0 1.5em;
+            height: 3.6em;
         }
             .navEffect-logo {
-                display: inline-block;
+                display: flex;
+                align-items: center;
             }
 
             .navEffect-logo-transition {
@@ -157,8 +159,9 @@ body {
                     justify-content: flex-end;
                 }
                     .items__search {
-                        width: 4em;
+                        padding: 0 1em;
                         text-align: center;
+                        border-left: 1px solid var(--white3);
                     }
                         .items__search:hover path {
                             fill: var(--black);
@@ -177,11 +180,20 @@ body {
 
 @media screen and (max-width: 1025px) {
     .nav__logo {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        height: 6em;
     }
+        .navEffect-logo {
+            height: 3.6em;
+        }
 }
 
 @media screen and (max-width: 780px) {
+    .nav__logo {
+        height: 3.6em;
+    }
+
     .wrapper__box1,
     .box2__list {
         display: none;
@@ -196,7 +208,7 @@ body {
         justify-content: space-between;
     }
         .items__search {
-            width: 2.5em;
+            border-right: 1px solid var(--white3);
         }
 
         .items__bar {
