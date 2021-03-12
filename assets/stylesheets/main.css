@@ -14,6 +14,10 @@
     --white2: #FEFEFE;
     --gray2: #aaa;
     --black4: #333;
+    --gray3: #F8F8F8;
+    --gray4: #999;
+    --black5: rgba(40, 40, 40, .6);
+    --white3: #eee;
 }
 
 body {
