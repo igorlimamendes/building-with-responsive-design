@@ -220,3 +220,6 @@ body {
 .footer {
     color: var(--gray2);
 }
+    .footer a:focus {
+        outline: none;
+    }
