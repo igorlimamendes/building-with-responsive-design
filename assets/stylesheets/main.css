@@ -215,3 +215,8 @@ body {
             display: inline-block;
         }
 }
+
+/* Footer */
+.footer {
+    color: var(--gray2);
+}
