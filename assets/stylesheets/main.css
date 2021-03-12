@@ -236,3 +236,23 @@ body {
             justify-content: center;
             list-style: none;
         }
+
+        .box1__icons {
+            padding-bottom: 2.2em;
+        }
+            .icons__list li {
+                margin: .3em .8em;
+            }
+
+            .icons__list a {
+                background-color: var(--black4);
+                border: 2px solid var(--black4);
+                border-radius: 100%;
+                padding: 1em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                .icons__list a:hover {
+                    background-color: var(--black2);
+                }
