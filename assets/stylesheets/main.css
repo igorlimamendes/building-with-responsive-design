@@ -228,3 +228,11 @@ body {
         background-color: var(--black2);
         padding: 4em 1em 3.2em;
     }
+        .icons__list,
+        .footer__box1__list {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+        }
