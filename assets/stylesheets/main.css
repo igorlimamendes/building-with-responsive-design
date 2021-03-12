@@ -284,9 +284,21 @@ body {
         }
 
 @media screen and (max-width: 768px) {
+    .icons__list li {
+        margin: .3em;
+    }
 
+    .footer__box2 {
+        padding: 2.5em 1.5em;
+    }
+        .footer__box2 span {
+            display: block;
+            margin: .4em 0;
+        }
 }
 
 @media screen and (max-width: 320px) {
-
+    #item-rss {
+        display: none;
+    }
 }
