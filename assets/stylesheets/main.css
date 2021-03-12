@@ -256,3 +256,7 @@ body {
                 .icons__list a:hover {
                     background-color: var(--black2);
                 }
+
+        .footer__box1__list li {
+            margin: .3em .7em;
+        }
