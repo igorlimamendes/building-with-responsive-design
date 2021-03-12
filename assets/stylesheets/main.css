@@ -260,3 +260,11 @@ body {
         .footer__box1__list li {
             margin: .3em .7em;
         }
+
+        .footer__box1__list a {
+            color: var(--gray2);
+            font-size: 1.3em;
+        }
+            .footer__box1__list a:hover {
+                color: var(--white);
+            }
