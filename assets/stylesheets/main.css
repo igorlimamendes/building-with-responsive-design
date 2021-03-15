@@ -6,16 +6,18 @@
 }
 
 :root {
-    --black: #000;
     --white: #fff;
-    --black2: #131313;
-    --gray: rgba(255, 255, 255, 0.6);
-    --black3: rgba(255, 255, 255, .1);
     --white2: #FEFEFE;
-    --gray2: #aaa;
-    --black4: #333;
-    --gray3: #F8F8F8;
     --white3: #eee;
+    --white4: #F4F4F4;
+    --gray: rgba(255, 255, 255, 0.6);
+    --gray2: #aaa;
+    --gray3: #F8F8F8;
+    --black: #000;
+    --black2: #131313;
+    --black3: rgba(255, 255, 255, .1);
+    --black4: #333;
+    --black5: rgba(0, 0, 0, .25);
 }
 
 body {
