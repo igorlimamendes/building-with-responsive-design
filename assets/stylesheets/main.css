@@ -1,4 +1,11 @@
 /* General style */
+@font-face {
+    font-family: "Avalon";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/avalon-bold.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
