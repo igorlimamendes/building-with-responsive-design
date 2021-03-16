@@ -337,6 +337,19 @@ body {
             background-color: var(--black7);
         }
 
+        .section1__box1__image,
+        .section1__box1__gradient,
+        .section1__box2__image,
+        .section1__box2__gradient,
+        .section1__box1__gradient2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+
 /* Footer */
 .footer {
     color: var(--gray2);
