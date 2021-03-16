@@ -260,6 +260,13 @@ body {
             z-index: 1;
             position: relative;
         }
+            .main__section1__box1--data {
+                position: absolute;
+                top: 1.2em;
+                right: 2em;
+                color: var(--white4);
+                font-size: 1.4em;
+            }
 
 /* Footer */
 .footer {
