@@ -332,6 +332,11 @@ body {
             outline: none;
         }
 
+        .main__section1__box1:hover .section1__box1__gradient,
+        .section1__box2__box:hover .section1__box2__gradient {
+            background-color: var(--black7);
+        }
+
 /* Footer */
 .footer {
     color: var(--gray2);
