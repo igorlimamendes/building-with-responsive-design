@@ -327,6 +327,11 @@ body {
                 margin-bottom: .3em;
             }
 
+        .main__section1__box1:focus,
+        .section1__box2__box:focus {
+            outline: none;
+        }
+
 /* Footer */
 .footer {
     color: var(--gray2);
