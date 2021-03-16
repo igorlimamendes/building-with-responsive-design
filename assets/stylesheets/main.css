@@ -19,12 +19,14 @@
     --white4: #F4F4F4;
     --gray: rgba(255, 255, 255, 0.6);
     --gray2: #aaa;
-    --gray3: #F8F8F8;
     --black: #000;
     --black2: #131313;
     --black3: rgba(255, 255, 255, .1);
     --black4: #333;
     --black5: rgba(0, 0, 0, .25);
+    --black6: #555;
+    --black7: rgba(0, 0, 0, 0);
+    --red: #f42;
 }
 
 body {
