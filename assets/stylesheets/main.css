@@ -317,6 +317,9 @@ body {
                 position: relative;
             }
 
+            .img-box1 {background: url(../images/box2-img-box1.webp) no-repeat;}
+            .img-box2 {background: url(../images/box2-img-box2.webp) no-repeat;}
+
 /* Footer */
 .footer {
     color: var(--gray2);
