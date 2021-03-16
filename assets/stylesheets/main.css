@@ -231,6 +231,15 @@ body {
 .main {
     margin: 11.3em 1em 3.5em;
 }
+    .transition {
+        transition: .4s ease all;
+    }
+
+    .category {
+        color: var(--white);
+        font-size: 1.3em;
+        margin-bottom: .35em;
+    }
 
 /* Footer */
 .footer {
