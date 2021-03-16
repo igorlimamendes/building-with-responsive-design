@@ -356,6 +356,12 @@ body {
             background-size: cover;
         }
 
+        .section1__box1__gradient,
+        .section1__box2__gradient {
+            background: var(--black5) url(../images/gradient.webp) no-repeat;
+            background-size: 100% 100%;
+        }
+
 /* Footer */
 .footer {
     color: var(--gray2);
