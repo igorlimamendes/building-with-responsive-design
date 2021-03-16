@@ -320,6 +320,13 @@ body {
             .img-box1 {background: url(../images/box2-img-box1.webp) no-repeat;}
             .img-box2 {background: url(../images/box2-img-box2.webp) no-repeat;}
 
+            .section1__box2__box--title {
+                font: bold 2.7em "Avalon", Arial, sans-serif;
+                line-height: 1.1;
+                color: var(--white);
+                margin-bottom: .3em;
+            }
+
 /* Footer */
 .footer {
     color: var(--gray2);
