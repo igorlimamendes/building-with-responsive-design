@@ -299,6 +299,13 @@ body {
                 display: inline-block;
             }
 
+        .main__section1__box2 {
+            width: 33.33333%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+        }
+
 /* Footer */
 .footer {
     color: var(--gray2);
