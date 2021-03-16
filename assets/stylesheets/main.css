@@ -241,6 +241,14 @@ body {
         margin-bottom: .35em;
     }
 
+    .main__section1 {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        height: 75vh;
+        max-height: 560px;
+    }
+
 /* Footer */
 .footer {
     color: var(--gray2);
