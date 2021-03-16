@@ -268,7 +268,7 @@ body {
                 font-size: 1.4em;
             }
 
-            .section1__box1__image {background: url(../images/box1-image.jpg) no-repeat;}
+            .section1-img1 {background: url(../images/section1-img1.jpg) no-repeat;}
 
             .section1__box1__gradient2 {
                 background: transparent url(../images/gradient2.webp) no-repeat;
@@ -317,8 +317,8 @@ body {
                 position: relative;
             }
 
-            .img-box1 {background: url(../images/box2-img-box1.webp) no-repeat;}
-            .img-box2 {background: url(../images/box2-img-box2.webp) no-repeat;}
+            .section1-img2 {background: url(../images/section1-img2.webp) no-repeat;}
+            .section1-img3 {background: url(../images/section1-img3.webp) no-repeat;}
 
             .section1__box2__box--title {
                 font: bold 2.7em "Avalon", Arial, sans-serif;
