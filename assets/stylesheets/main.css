@@ -270,6 +270,14 @@ body {
 
             .section1__box1__image {background: url(../images/box1-image.jpg) no-repeat;}
 
+            .section1__box1__gradient2 {
+                background: transparent url(../images/gradient2.webp) no-repeat;
+                background-position: 0 0;
+                background-size: cover;
+                mix-blend-mode: lighten;
+                pointer-events: none;
+            }
+
 /* Footer */
 .footer {
     color: var(--gray2);
