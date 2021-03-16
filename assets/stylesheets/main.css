@@ -305,6 +305,17 @@ body {
             flex-flow: column nowrap;
             justify-content: space-between;
         }
+            .section1__box2__box {
+                background-color: var(--black);
+                padding: 2em 1.5em;
+                height: 49%;
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: flex-end;
+                overflow: hidden;
+                z-index: 1;
+                position: relative;
+            }
 
 /* Footer */
 .footer {
