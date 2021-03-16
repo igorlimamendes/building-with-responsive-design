@@ -362,6 +362,29 @@ body {
             background-size: 100% 100%;
         }
 
+        .main__section1__box1--information,
+        .section1__box2__box--information {
+            display: inline-flex;
+            flex-flow: row wrap;
+            align-items: center;
+            font-size: 1.1em;
+            color: var(--gray2);
+        }
+            .main__section1__box1--information a,
+            .section1__box2__box--information a {
+                color: var(--gray2);
+                margin-left: .3em;
+            }
+                .main__section1__box1--information a:hover,
+                .section1__box2__box--information a:hover {
+                    color: var(--white);
+                }
+
+            .main__section1__box1--information svg,
+            .section1__box2__box--information svg {
+                margin: 0 .5em 0 .8em;
+            }
+
 /* Footer */
 .footer {
     color: var(--gray2);
