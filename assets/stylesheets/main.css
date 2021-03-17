@@ -392,6 +392,18 @@ body {
             margin: 0 .5em 0 .8em;
         }
 
+@media screen and (max-width: 1025px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 350px) {
+    
+}
+
 /* Footer */
 .footer {
     color: var(--gray2);
