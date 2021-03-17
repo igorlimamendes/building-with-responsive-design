@@ -552,7 +552,7 @@ body {
         }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     #item-rss {
         display: none;
     }
