@@ -486,6 +486,11 @@ body {
         flex-flow: row wrap;
         flex: 0 1 auto;
     }
+        .section2__wrapper__article {
+            flex-basis: 25%;
+            max-width: 25%;
+            padding: 0 1.2em 2.5em;
+        }
 
 /* Footer */
 .footer {
