@@ -471,6 +471,13 @@ body {
     }
 }
 
+/* Section 2 */
+.main__section2 { 
+    margin: 6em auto;
+    padding: 0 1.5em;
+    max-width: 1200px;
+}
+
 /* Footer */
 .footer {
     color: var(--gray2);
