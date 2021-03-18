@@ -550,11 +550,35 @@ body {
                     }
 
 @media screen and (max-width: 1025px) {
-
+    .main__section2 {
+        padding: 0;
+    }
+        .section2__wrapper__article {
+            flex-basis: 100%;
+            max-width: 33%;
+        }
+            .article__textBox__titleBox--item {
+                font-size: 1.6em;
+            }
 }
 
 @media screen and (max-width: 768px) {
+    .section2__wrapper__article {
+        display: flex;
+        max-width: 100%;
+    }
+        .wrapper__article__imageBox--item {
+            width: 7.5em;
+            height: 7.5em;
+        }
 
+        .wrapper__article__textBox {
+            height: 100%;
+            margin-left: 1.3em;
+        }
+            .article__textBox__titleBox {
+                padding: 0 0 .5em 0;
+            }
 }
 
 /* Footer */
