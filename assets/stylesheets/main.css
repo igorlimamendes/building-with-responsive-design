@@ -505,7 +505,7 @@ body {
                 .section2-img8 {background-image: url(../images/section2-img8.jpg);}
 
                 .wrapper__article__imageBox--item {
-                    background-color: #000;
+                    background-color: var(--black);
                     background-position: 50%;
                     background-repeat: no-repeat;
                     background-size: cover;
