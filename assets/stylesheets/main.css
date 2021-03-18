@@ -517,6 +517,21 @@ body {
                     padding-top: 50%;
                 }
 
+            .article__textBox__titleBox {
+                padding: 1em 0 .7em;
+            }
+                .article__textBox__titleBox--item {
+                    font: bold 1.7em "Avalon", Arial, sans-serif;
+                    line-height: 1.2;
+                }
+                    .article__textBox__titleBox--item a {
+                        color: var(--black);
+                    }
+                        .article__textBox__titleBox--item a:hover {
+                            color: var(--red);
+                            box-shadow: inset 0 -1px 0 rgb(255 68 34 / 25%);
+                        }
+
 /* Footer */
 .footer {
     color: var(--gray2);
