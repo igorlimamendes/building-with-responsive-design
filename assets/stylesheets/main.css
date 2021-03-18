@@ -491,6 +491,31 @@ body {
             max-width: 25%;
             padding: 0 1.2em 2.5em;
         }
+            .wrapper__article__imageBox {
+                display: block;
+                max-width: 100%;
+            }
+                .section2-img1 {background-image: url(../images/section2-img1.jpg);}
+                .section2-img2 {background-image: url(../images/section2-img2.jpg);}
+                .section2-img3 {background-image: url(../images/section2-img3.webp);}
+                .section2-img4 {background-image: url(../images/section2-img4.jpg);}
+                .section2-img5 {background-image: url(../images/section2-img5.jpg);}
+                .section2-img6 {background-image: url(../images/section2-img6.jpg);}
+                .section2-img7 {background-image: url(../images/section2-img7.jpg);}
+                .section2-img8 {background-image: url(../images/section2-img8.jpg);}
+
+                .wrapper__article__imageBox--item {
+                    background-color: #000;
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: block;
+                    overflow: hidden;
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    padding-top: 50%;
+                }
 
 /* Footer */
 .footer {
