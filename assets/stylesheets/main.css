@@ -477,6 +477,9 @@ body {
     padding: 0 1.5em;
     max-width: 1200px;
 }
+    .main__section2 a:focus {
+        outline: none;
+    }
 
 /* Footer */
 .footer {
