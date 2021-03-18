@@ -481,6 +481,12 @@ body {
         outline: none;
     }
 
+    .main__section2__wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 1 auto;
+    }
+
 /* Footer */
 .footer {
     color: var(--gray2);
