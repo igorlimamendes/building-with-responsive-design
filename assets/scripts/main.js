@@ -14,8 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (window.scrollY > 32 && window.innerWidth > 768) {
             navLogoSvg.classList.add("navEffect-logo-transition");
+            navLogo.style.alignItems = "initial";
         } else {
             navLogoSvg.classList.remove("navEffect-logo-transition");
+            navLogo.style.alignItems = "center";
         }
     }
     
