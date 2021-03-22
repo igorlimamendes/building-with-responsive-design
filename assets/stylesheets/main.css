@@ -6,6 +6,13 @@
     src: url(../fonts/avalon-bold.ttf);
 }
 
+@font-face {
+    font-family: "ARS Maquette";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/ars-maquette-bold.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
