@@ -599,6 +599,36 @@ body {
         justify-content: space-between;
         margin-bottom: 2em;
     }
+        .section3__top__infoBox {
+            margin-top: .7em;
+        }
+            .section3__top__infoBox a {
+                color: var(--red);
+                font-size: 1.65em;
+            }
+                .section3__top__infoBox a:hover {
+                    color: var(--black);
+                }
+
+                .section3__top__infoBox a:nth-of-type(2) {
+                    margin: 0 1.2em;
+                }
+
+                .section3__top__infoBox a:nth-of-type(2)::before,
+                .section3__top__infoBox a:nth-of-type(2)::after {
+                    display: inline-block;
+                    content: "|";
+                    pointer-events: none;
+                    position: absolute;
+                }
+
+                .section3__top__infoBox a:nth-of-type(2)::before {
+                    margin-left: -.75em;
+                }
+
+                .section3__top__infoBox a:nth-of-type(2)::after {
+                    margin-left: .6em;
+                }
 
 /* Footer */
 .footer {
