@@ -630,6 +630,13 @@ body {
                     margin-left: .6em;
                 }
 
+    .main__section3__wrapper {
+        display: flex;
+        flex: 0 1 auto;
+        justify-content: space-between;
+        position: relative;
+    }
+
 /* Footer */
 .footer {
     color: var(--gray2);
