@@ -483,10 +483,6 @@ body {
     padding: 0 1.5em;
     max-width: 1200px;
 }
-    .main__section2 a:focus {
-        outline: none;
-    }
-
     .main__section2__wrapper {
         display: flex;
         flex-flow: row wrap;
