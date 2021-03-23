@@ -586,6 +586,13 @@ body {
             }
 }
 
+/* Section 3 */
+.main__section3 {
+    margin: 6em auto;
+    max-width: 1200px;
+    padding: 0 2.7em;
+}
+
 /* Footer */
 .footer {
     color: var(--gray2);
