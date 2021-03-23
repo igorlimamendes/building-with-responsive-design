@@ -592,6 +592,13 @@ body {
     max-width: 1200px;
     padding: 0 2.7em;
 }
+    .main__section3__top {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2em;
+    }
 
 /* Footer */
 .footer {
