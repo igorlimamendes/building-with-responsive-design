@@ -689,6 +689,23 @@ body {
                             font-weight: normal;
                         }
 
+            .wrapper__article__middle {
+                padding: 2em 1.4em;
+            }
+                .article__middle__text {
+                    display: flex;
+                    align-items: center;
+                    color: var(--black);
+                    font-size: 1.25em;
+                }
+                    .article__middle__text:first-of-type {
+                        margin-bottom: 1.2em;
+                    }
+
+                    .article__middle__text svg {
+                        margin-right: 1em;
+                    }
+
 /* Footer */
 .footer {
     color: var(--gray2);
