@@ -706,6 +706,19 @@ body {
                         margin-right: 1em;
                     }
 
+            .wrapper__article__bottom {
+                border-top: 1px solid rgba(255,68,34,.25);
+                padding: 1em 1.4em;
+                line-height: 1.9;
+                font-size: 1.1em;
+            }
+                .wrapper__article__bottom a {
+                    color: var(--black6);
+                }
+                    .wrapper__article__bottom a span {
+                        color: var(--gray2);
+                    }
+
 /* Footer */
 .footer {
     color: var(--gray2);
