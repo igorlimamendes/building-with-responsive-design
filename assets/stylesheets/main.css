@@ -636,6 +636,12 @@ body {
         justify-content: space-between;
         position: relative;
     }
+        .section3__wrapper__article {
+            background-color: var(--white5);
+            min-height: 27em;
+            flex-basis: 23.5%;
+            width: 100%;
+        }
 
 /* Footer */
 .footer {
