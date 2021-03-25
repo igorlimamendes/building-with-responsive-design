@@ -961,11 +961,39 @@ body {
                             }
 
 @media screen and (max-width: 1025px) {
+    .main__section4 {
+        padding: 0 1.2em;
+    }
+        .main__section4__wrapper {
+            flex-basis: 49%;
+            width: 49%;
+        }
+            .wrapper__articleBox__article1 {
+                min-height: 35em;
+            }
+                .article1__headingBox__authorBox,
+                .article1__headingBox__authorBox a {
+                    font-size: 12px;
+                }
 
+                .articleBox__article1__headingBox--title {
+                    font: bold 2em Arial, Helvetica;
+                }
+
+                .articleBox__article2__titleBox--title {
+                    font: bold 1.4em Arial, Helvetica;
+                }
 }
 
 @media screen and (max-width: 768px) {
-
+    .main__section4__wrapper {
+        flex-basis: 100%;
+        width: 100%;
+    }
+        .wrapper__articleBox__article1 {
+            min-height: 20em;
+            height: 70vw;
+        }
 }
 
 /* Footer */
