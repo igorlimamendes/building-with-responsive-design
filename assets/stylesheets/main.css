@@ -823,6 +823,19 @@ body {
                 position: relative;
                 overflow: hidden;
             }
+                .articleBox__article1__gradient,
+                .wrapper__articleBox__article1--image {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                }
+
+                .articleBox__article1__gradient {
+                    background: url(../images/gradient.webp) no-repeat;
+                    background-size: 100% 100%;
+                }
 
 /* Footer */
 .footer {
