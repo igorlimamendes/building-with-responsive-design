@@ -903,6 +903,28 @@ body {
                             .articleBox__article2__titleBox--title a:hover {
                                 box-shadow: inset 0 -1px 0 rgb(255 68 34 / 20%)
                             }
+                
+                .articleBox__article2__imageBox {
+                    display: flex;
+                }
+                    .section4-img4 {background: url(../images/section4-img4.jpg) 0 0;}
+                    .section4-img5 {background: url(../images/section4-img5.jpeg) 0 0;}
+                    .section4-img6 {background: url(../images/section4-img6.webp) 0 0;}
+                    .section4-img10 {background: url(../images/section4-img10.jpg) 0 0;}
+                    .section4-img11 {background: url(../images/section4-img11.jpg) 0 0;}
+                    .section4-img12 {background: url(../images/section4-img12.webp) 0 0;}
+                    .section4-img16 {background: url(../images/section4-img16.jpg) 0 0;}
+                    .section4-img17 {background: url(../images/section4-img17.jpg) 0 0;}
+                    .section4-img18 {background: url(../images/section4-img18.jpeg) 0 0;}
+
+                    .articleBox__article2__imageBox--image {
+                        background-color: var(--black);
+                        background-position: 50%;
+                        background-size: cover;
+                        height: 96px;
+                        width: 96px;
+                        max-width: 100%;
+                    }
 
 /* Footer */
 .footer {
