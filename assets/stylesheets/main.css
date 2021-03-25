@@ -778,6 +778,17 @@ body {
             }
 }
 
+/* Section 4 */
+.main__section4 {
+    width: 1200px;
+    max-width: 100%;
+    margin: 6em auto;
+    padding: 0 2.8em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 /* Footer */
 .footer {
     color: var(--gray2);
