@@ -803,6 +803,15 @@ body {
             display: flex;
             flex-flow: column nowrap;
         }
+            .section4-img1 {background: var(--black) url(../images/section4-img1.jpg) no-repeat;}
+            .section4-img2 {background: var(--black) url(../images/section4-img2.jpg) no-repeat;}
+            .section4-img3 {background: var(--black) url(../images/section4-img3.jpg) no-repeat;}
+            .section4-img7 {background: var(--black) url(../images/section4-img7.jpg) no-repeat;}
+            .section4-img8 {background: var(--black) url(../images/section4-img8.webp) no-repeat;}
+            .section4-img9 {background: var(--black) url(../images/section4-img9.webp) no-repeat;}
+            .section4-img13 {background: var(--black) url(../images/section4-img13.webp) no-repeat;}
+            .section4-img14 {background: var(--black) url(../images/section4-img14.jpg) no-repeat;}
+            .section4-img15 {background: var(--black) url(../images/section4-img15.jpg) no-repeat;}
 
 /* Footer */
 .footer {
