@@ -873,6 +873,13 @@ body {
                                 margin: 0 .1em 0 .5em;
                             }
 
+            .wrapper__articleBox__article2 {
+                background-color: var(--gray4);
+                margin: .2em 0;
+                display: flex;
+                justify-content: space-between;
+            }
+
 /* Footer */
 .footer {
     color: var(--gray2);
