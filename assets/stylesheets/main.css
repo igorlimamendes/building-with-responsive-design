@@ -799,6 +799,11 @@ body {
             margin-bottom: 1.2em;
         }
 
+        .section4__wrapper__articleBox {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+
 /* Footer */
 .footer {
     color: var(--gray2);
