@@ -879,6 +879,30 @@ body {
                 display: flex;
                 justify-content: space-between;
             }
+                .articleBox__article2__titleBox {
+                    padding: 1.3em;
+                }
+                    .articleBox__article2__titleBox--category {
+                        color: var(--red);
+                        font-weight: normal;
+                        font-size: 1.25em;
+                    }
+
+                    .articleBox__article2__titleBox--title {
+                        max-height: 56px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        width: 100%;
+                        font: bold 1.4em "ARS Maquette", Arial, Helvetica;
+                        line-height: 1.25;
+                        margin: .25em 0;
+                    }
+                        .articleBox__article2__titleBox--title a {
+                            color: var(--red);
+                        }
+                            .articleBox__article2__titleBox--title a:hover {
+                                box-shadow: inset 0 -1px 0 rgb(255 68 34 / 20%)
+                            }
 
 /* Footer */
 .footer {
