@@ -813,6 +813,17 @@ body {
             .section4-img14 {background: var(--black) url(../images/section4-img14.jpg) no-repeat;}
             .section4-img15 {background: var(--black) url(../images/section4-img15.jpg) no-repeat;}
 
+            .wrapper__articleBox__article1 {
+                background-size: cover;
+                background-position: 50%;
+                min-height: 27.5em;
+                display: flex;
+                flex-flow: inherit;
+                justify-content: flex-end;
+                position: relative;
+                overflow: hidden;
+            }
+
 /* Footer */
 .footer {
     color: var(--gray2);
