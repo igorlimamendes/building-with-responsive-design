@@ -960,6 +960,14 @@ body {
                                 width: 4px;
                             }
 
+@media screen and (max-width: 1025px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
 /* Footer */
 .footer {
     color: var(--gray2);
