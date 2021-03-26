@@ -1044,6 +1044,14 @@ body {
             .wrapper__article__imgBox {
                 position: relative;
             }
+                .section5-img1 {background-image: url(../images/section5-img1.jpg);}
+                .section5-img2 {background-image: url(../images/section5-img2.jpg);}
+                .section5-img3 {background-image: url(../images/section5-img3.jpg);}
+                .section5-img4 {background-image: url(../images/section5-img4.jpg);}
+                .section5-img5 {background-image: url(../images/section5-img5.jpg);}
+                .section5-img6 {background-image: url(../images/section5-img6.jpg);}
+                .section5-img7 {background-image: url(../images/section5-img7.jpg);}
+                .section5-img8 {background-image: url(../images/section5-img8.jpg);}
 
 /* Footer */
 .footer {
