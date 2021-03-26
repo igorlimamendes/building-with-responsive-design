@@ -1053,6 +1053,16 @@ body {
                 .section5-img7 {background-image: url(../images/section5-img7.jpg);}
                 .section5-img8 {background-image: url(../images/section5-img8.jpg);}
 
+                .article__imgBox--img {
+                    background-color: var(--black);
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: block;
+                    min-height: 20em;
+                    width: 100%;
+                }
+
 /* Footer */
 .footer {
     color: var(--gray2);
