@@ -1063,6 +1063,32 @@ body {
                     width: 100%;
                 }
 
+                .article__imgBox__discount {
+                    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MCA4MCI+PHBhdGggZmlsbD0iI0ZDMCIgZD0iTTgwIDBIMGw4MCA4MCIvPjwvc3ZnPg==');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    color: var(--black);
+                    display: block;
+                    height: 80px;
+                    overflow: hidden;
+                    pointer-events: none;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 80px;
+                }
+                    .article__imgBox__discount--item {
+                        transform: rotate(45deg);
+                        font-size: 14px;
+                        font-weight: 700;
+                        left: 8px;
+                        position: relative;
+                        text-align: center;
+                        text-transform: uppercase;
+                        top: 20px;
+                        width: 100%;
+                    }
+
 /* Footer */
 .footer {
     color: var(--gray2);
