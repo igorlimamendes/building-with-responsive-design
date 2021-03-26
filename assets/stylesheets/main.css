@@ -1030,6 +1030,13 @@ body {
                 color: var(--black);
             }
 
+    .main__section5__wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 1 auto;
+        padding: 0 1.7em;
+    }
+
 /* Footer */
 .footer {
     color: var(--gray2);
