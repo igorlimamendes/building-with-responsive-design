@@ -1115,11 +1115,68 @@ body {
                 }
 
 @media screen and (max-width: 1025px) {
-
+    .main__section5__titleBox {
+        padding: 0 1.2em;
+    }
+    
+    .main__section5__wrapper {
+        padding: 0;
+    }
+        .section5__wrapper__article {
+            flex-basis: 32%;
+            width: 32%;
+        }
+            .article__imgBox--img {
+                min-height: auto;
+                height: 25vw;
+            }
 }
 
 @media screen and (max-width: 768px) {
+    .main__section5 {
+        margin: 4em auto;
+    }
+        .main__section5__titleBox--subheading {
+            font-size: 1.4em;
+        }
 
+        .main__section5__wrapper {
+            flex-flow: column wrap;
+        }
+            .section5__wrapper__article {
+                flex-basis: auto;
+                width: 100%;
+                display: flex;
+                padding-bottom: 1.4em;
+            }
+                .article__imgBox--img {
+                    height: 8em;
+                    width: 7em;
+                }
+
+                .article__imgBox__discount {
+                    display: none;
+                }
+
+                .wrapper__article__txtBox {
+                    width: 100%;
+                    padding: 0 1.3em;
+                }
+                    .wrapper__article__txtBox--heading {
+                        margin-top: 0;
+                        font-size: 1.4em;
+                    }
+                        .wrapper__article__txtBox--heading a {
+                            color: var(--black);
+                        }
+
+                    .wrapper__article__txtBox--newPrice {
+                        font-size: 1.4em;
+                    }
+
+                    .wrapper__article__txtBox--oldPrice {
+                        font-size: 1.2em;
+                    }
 }
 
 /* Footer */
