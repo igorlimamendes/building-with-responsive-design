@@ -1014,6 +1014,21 @@ body {
     max-width: 100%;
     margin: 6em auto;
 }
+    .main__section5__titleBox {
+        margin-bottom: 2em;
+        padding: 0 2.8em;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .main__section5__titleBox--subheading {
+            color: var(--red);
+            font-size: 1.6em;
+        }
+            .main__section5__titleBox--subheading:hover {
+                color: var(--black);
+            }
 
 /* Footer */
 .footer {
