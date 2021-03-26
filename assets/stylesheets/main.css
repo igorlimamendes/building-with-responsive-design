@@ -1041,6 +1041,9 @@ body {
             width: 25%;
             padding: 0 1.2em 2.5em;
         }
+            .wrapper__article__imgBox {
+                position: relative;
+            }
 
 /* Footer */
 .footer {
