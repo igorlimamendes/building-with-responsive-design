@@ -1008,6 +1008,13 @@ body {
             }
 }
 
+/* Section 5 */
+.main__section5 {
+    width: 1200px;
+    max-width: 100%;
+    margin: 6em auto;
+}
+
 /* Footer */
 .footer {
     color: var(--gray2);
